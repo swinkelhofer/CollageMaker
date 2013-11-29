@@ -1,0 +1,103 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #002b36;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.overlays
+{
+	background-color:#93a1a1;
+	opacity: 0.7;
+	position: absolute;
+	border: 1px solid #002b36;
+}
+.overlays:hover
+{
+	opacity: 0.95;
+	cursor: move;
+	z-index: 100;
+}
+#image
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+#closer
+{
+	width: 10px;
+	height: 10px;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 0.8em;
+	cursor: pointer;
+}
+#content
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.9;
+	display: none;
+}
+
+#content_html
+{
+	position: absolute;
+	width: 60%;
+	height: 60%;
+	top: 15%;
+	left: 20%;
+	background-color: white;
+	display: none;
+	overflow: auto;
+	padding: 10px;
+	color: #002b36;
+}
+
+samp
+{
+	font-family: monospace;
+}
